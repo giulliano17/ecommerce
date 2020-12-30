@@ -182,7 +182,7 @@ class CouponController {
     } catch (error) {
       await trx.rollback()
       return response.status(400).send({
-        message: 'Não foi possível atualizar este cupom!'
+        message: 'Não foi possível atualizar este cupom !'
       })
     }
   }
